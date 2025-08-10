@@ -1,0 +1,17 @@
+{
+  "name": "Kevin Mato",
+  "title": "Quantum Computing Libraries Engineer @ NVIDIA | PhD in Quantum Computing",
+  "shortBio": "Quantum Computing Libraries Engineer at NVIDIA with a PhD in Quantum Computing from the Technical University of Munich. Passionate about quantum full-stack toolchains, HPC acceleration, and open-source development.",
+  "contact": {
+    "email": "kevinmato.quantum@gmail.com",
+    "links": {
+      "linkedin": "https://linkedin.com/in/kevin-mato-quantum",
+      "github": "https://github.com/KevinMTO",
+      "twitter": ""
+    }
+  },
+  "seo": {
+    "description": "Personal website and blog of Kevin Mato, Quantum Computing Libraries Engineer at NVIDIA and PhD in Quantum Computing, specializing in high-performance computing and open-source quantum software.",
+    "keywords": "Kevin Mato, quantum computing, NVIDIA, HPC, MQT Qudits, high performance computing, quantum software, open source"
+  }
+}

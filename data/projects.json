@@ -1,0 +1,44 @@
+{
+  "projects": [
+    {
+      "id": "mqt-qudits",
+      "title": "MQT Qudits",
+      "description": "First open-source framework for mixed-dimensional quantum computing, featuring multiple simulators, a compiler, and a programming language based on OpenQASM 2.0.",
+      "technologies": ["C++", "Python", "Tensor Networks", "Decision Diagrams", "OpenQASM"],
+      "image": "img/mqt-qudits.jpg",
+      "link": "https://github.com/cda-tum/mqt-qudits",
+      "featured": true,
+      "year": "2023"
+    },
+    {
+      "id": "mqt-misim",
+      "title": "MQT MiSiM",
+      "description": "A C++ quantum circuit simulator for mixed-dimensional systems based on Decision Diagrams, capable of simulating circuits with more than 100 qudits.",
+      "technologies": ["C++", "Decision Diagrams", "Quantum Simulation"],
+      "image": "img/mqt-misim.jpg",
+      "link": "https://github.com/cda-tum/MiSiM",
+      "featured": true,
+      "year": "2022"
+    },
+    {
+      "id": "quantum-docking",
+      "title": "Quantum Molecular Docking",
+      "description": "Developed the first in silico drug discovery molecular docking algorithm on a quantum annealer, parallelized classical comparisons on the Marconi-100 supercomputer.",
+      "technologies": ["Python", "MPI", "Quantum Annealing", "HPC"],
+      "image": "img/quantum-docking.jpg",
+      "link": "",
+      "featured": false,
+      "year": "2020"
+    },
+    {
+      "id": "nvidia-quantum-libraries",
+      "title": "Quantum Computing Libraries @ NVIDIA",
+      "description": "Quantum chemistry software development with performance focus, full-stack quantum error correction, and heterogeneous architecture support.",
+      "technologies": ["C++", "CUDA", "Python", "Quantum Error Correction"],
+      "image": "img/nvidia-quantum.jpg",
+      "link": "",
+      "featured": true,
+      "year": "2025"
+    }
+  ]
+}

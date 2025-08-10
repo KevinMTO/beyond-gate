@@ -1,0 +1,85 @@
+{
+  "biography": [
+    "I am a Quantum Computing Libraries Engineer at NVIDIA and hold a PhD in Quantum Computing from the Technical University of Munich. My work spans quantum full-stack toolchain development, HPC acceleration, and open-source software.",
+    "At NVIDIA, I focus on quantum chemistry software, quantum error correction, and real-time systems across heterogeneous architectures (CPU, GPU, QPU).",
+    "During my PhD, I developed MQT Qudits — the first open-source framework for mixed-dimensional quantum computing — along with novel compilation and simulation methods for high-dimensional quantum systems.",
+    "I have experience in C++, Python, HPC programming with MPI, OpenMP, CUDA, FPGA design, and multi-GPU cluster optimization. I enjoy translating theoretical advances into robust, practical products."
+  ],
+  "education": [
+    {
+      "degree": "US Quantum Information Summer School",
+      "institution": "Oak Ridge National Laboratory",
+      "year": "2024",
+      "details": "Focused on quantum information theory and applications."
+    },
+    {
+      "degree": "PhD in Quantum Computing",
+      "institution": "Technical University of Munich",
+      "year": "2021 – 2025",
+      "details": "Research in noise-aware compilation, qudit logic, and simulation."
+    },
+    {
+      "degree": "Master’s Degree in Computer Science and Engineering",
+      "institution": "Politecnico di Milano / Politechnika Warszawska",
+      "year": "2018 – 2020",
+      "details": "Specialization in HPC and embedded systems."
+    },
+    {
+      "degree": "Bachelor’s Degree in Computer Science and Communication Engineering",
+      "institution": "Politecnico di Milano",
+      "year": "2015 – 2018",
+      "details": "Graduated Magna Cum Laude."
+    }
+  ],
+  "experience": [
+    {
+      "position": "Quantum Computing Libraries Engineer",
+      "company": "NVIDIA",
+      "duration": "Jan 2025 – Present",
+      "description": "Quantum chemistry software development, full-stack quantum error correction, and real-time systems across CPU, GPU, and QPU."
+    },
+    {
+      "position": "PhD Candidate - Quantum Computing",
+      "company": "Technical University of Munich",
+      "duration": "Jul 2021 – Jan 2025",
+      "description": "Noise-aware quantum compilation, qudit logic compilation, simulation, and MQT Qudits development."
+    },
+    {
+      "position": "HPC Hybrid Programming Simulation Developer",
+      "company": "Technische Universität Wien",
+      "duration": "Jul 2020 – Sep 2020",
+      "description": "Memory and communication optimization of scientific code for a multi-GPU cluster."
+    }
+  ],
+  "specialties": [
+    {
+      "category": "Programming Languages",
+      "skills": ["C++", "Python", "C", "VHDL", "R"]
+    },
+    {
+      "category": "Quantum Computing",
+      "skills": ["Qiskit", "MQT Qudits", "Quantum Compilation", "Quantum Simulation"]
+    },
+    {
+      "category": "High-Performance Computing",
+      "skills": ["MPI", "OpenMP", "CUDA", "OpenACC", "Multi-GPU Clusters"]
+    },
+    {
+      "category": "Languages",
+      "skills": ["Italian (Native)", "English (Native or Bilingual)", "Spanish (Elementary)", "German (Elementary)", "Albanian (Limited Working)"]
+    }
+  ],
+  "certifications": [
+    "Quantum Computing and Applications to Machine Learning",
+    "Qiskit Global Summer School 2021 — 100/100",
+    "IBM Certified Associate Developer — Quantum Computation using Qiskit v0.2X",
+    "Fundamentals of Accelerated Computing with CUDA C/C++",
+    "Design and Development of Prototype Embedded Systems"
+  ],
+  "awards": [
+    "Second Place — FPGA Proof of Concept Contest",
+    "Best Poster Award (Oak Ridge National Laboratory, 2024)",
+    "Innovation Radar Nomination",
+    "Unitary Fund Grant (2024)"
+  ]
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact information and professional links">
+    <meta name="keywords" content="contact, email, linkedin, github, professional">
+    <title>Contact - Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">🚪 Beyond the Gate</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>Get In Touch</h1>
+            <p>I'm always interested in new opportunities and technical discussions.</p>
+        </div>
+
+        <div class="contact-content">
+            <!-- Contact information - loaded from site.json -->
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:" id="contact-email">Loading...</a></p>
+                </div>
+
+                <div class="contact-links">
+                    <h3>Professional Links</h3>
+                    <div id="professional-links" class="social-links">
+                        <div class="loading">Loading...</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Optional: Contact form or additional info -->
+            <div class="contact-note">
+                <h3>Let's Connect</h3>
+                <p>Whether you're interested in collaboration, have questions about my work, or just want to discuss engineering topics, feel free to reach out. I typically respond within 24 hours.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load contact info when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadContactData();
+            loadSiteData(); // For footer name
+        });
+    </script>
+</body>
+</html>

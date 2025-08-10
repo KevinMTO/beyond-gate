@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website and blog of an experienced engineer">
+    <meta name="keywords" content="engineer, software, blog, projects">
+    <meta name="author" content="">
+    <title>Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation header - shared across all pages -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">🚪 Beyond the Gate</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main class="container">
+        <section class="hero">
+            <img src="img/IEEE.QCE'24.Headshot-2_crop.png" alt="Kevin Mato" style="max-width:200px;border-radius:50%;margin-bottom:1rem;">
+            <h1 id="engineer-name">Loading...</h1>
+            <h2 id="engineer-title">Loading...</h2>
+    <p>Quantum, HPC, AI & Engineering Insights by Kevin Mato</p>
+            <p id="engineer-bio">Loading...</p>
+            
+            <div class="hero-links">
+                <a href="about.html" class="btn btn-primary">Learn More</a>
+                <a href="blog.html" class="btn btn-secondary">Read My Blog</a>
+            </div>
+        </section>
+        
+
+        <!-- Quick links section -->
+        <section class="quick-links">
+            <div class="link-grid">
+                <a href="about.html" class="link-card">
+                    <h3>About Me</h3>
+                    <p>My background, experience, and expertise</p>
+                </a>
+                <a href="projects.html" class="link-card">
+                    <h3>Projects</h3>
+                    <p>Recent work and technical achievements</p>
+                </a>
+                <a href="blog.html" class="link-card">
+                    <h3>Blog</h3>
+                    <p>Technical insights and engineering thoughts</p>
+                </a>
+                <a href="contact.html" class="link-card">
+                    <h3>Contact</h3>
+                    <p>Get in touch for opportunities</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer shared across all pages -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load homepage content when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSiteData();
+        });
+    </script>
+</body>
+</html>

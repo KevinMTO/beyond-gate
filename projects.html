@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Engineering projects and technical achievements">
+    <meta name="keywords" content="projects, engineering, software, portfolio">
+    <title>Projects - Engineer Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">🚪 Beyond the Gate</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>Projects</h1>
+            <p>A selection of my recent engineering work and technical achievements.</p>
+        </div>
+
+        <!-- Projects grid - populated from projects.json -->
+        <div id="projects-grid" class="projects-grid">
+            <div class="loading">Loading projects...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Load projects when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProjectsData();
+            loadSiteData(); // For footer name
+        });
+    </script>
+</body>
+</html>

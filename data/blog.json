@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "id": "mqt-qudits-introduction",
+      "title": "Exploring MQT Qudits: Beyond Binary Quantum Information",
+      "date": "2025-08-10",
+      "excerpt": "An introduction to MQT's support for qudits — higher-dimensional quantum systems — and why they matter for the future of quantum computing.",
+      "readTime": 6,
+      "tags": ["MQT", "qudits", "quantum computing", "simulation"],
+      "file": "posts/mqt-qudits.md"
+    }
+  ]
+}
