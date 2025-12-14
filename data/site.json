@@ -7,11 +7,21 @@
     "links": {
       "linkedin": "https://linkedin.com/in/kevin-mato-quantum",
       "github": "https://github.com/KevinMTO",
-      "twitter": ""
+      "githubProfessional": "https://github.com/kvmto",
+      "twitter": "https://x.com/QuantumMato",
+      "googleScholar": "https://scholar.google.com/citations?user=2l0R_hkAAAAJ",
+      "orcid": "https://orcid.org/0000-0003-2073-5226",
+      "researchGate": "https://www.researchgate.net/profile/Kevin-Mato",
+      "semanticScholar": "https://www.semanticscholar.org/author/Kevin-Mato/2121403410",
+      "dblp": "https://dblp.org/pid/334/2766.html",
+      "arxiv": "https://arxiv.org/search/quant-ph?searchtype=author&query=Mato%2C+K",
+      "scirate": "https://scirate.com/search?utf8=%E2%9C%93&q=kevin+mato"
     }
   },
   "seo": {
+    "siteUrl": "https://kevinmto.github.io/beyond-gate",
     "description": "Personal website and blog of Kevin Mato, Quantum Computing Libraries Engineer at NVIDIA and PhD in Quantum Computing, specializing in high-performance computing and open-source quantum software.",
-    "keywords": "Kevin Mato, quantum computing, NVIDIA, HPC, MQT Qudits, high performance computing, quantum software, open source"
+    "keywords": "Kevin Mato, quantum computing, NVIDIA, HPC, MQT Qudits, high performance computing, quantum software, open source, qudit, quantum compilation",
+    "image": "https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png"
   }
 }

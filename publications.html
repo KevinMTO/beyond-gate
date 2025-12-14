@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title>Publications - Kevin Mato | Quantum Computing Research</title>
+    <meta name="title" content="Publications - Kevin Mato | Quantum Computing Research">
+    <meta name="description" content="Research publications by Kevin Mato on quantum computing, qudit systems, quantum compilation, and high-performance computing. 154+ citations, H-index 7.">
+    <meta name="keywords" content="Kevin Mato, publications, research, quantum computing, qudits, MQT Qudits, quantum compilation, quantum simulation, arXiv, IEEE">
+    <meta name="author" content="Kevin Mato">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kevinmto.github.io/beyond-gate/publications.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kevinmto.github.io/beyond-gate/publications.html">
+    <meta property="og:title" content="Publications - Kevin Mato | Quantum Computing Research">
+    <meta property="og:description" content="Research publications by Kevin Mato on quantum computing, qudit systems, quantum compilation, and HPC. 154+ citations.">
+    <meta property="og:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    <meta property="og:site_name" content="Beyond the Gate - Kevin Mato">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QuantumMato">
+    <meta name="twitter:creator" content="@QuantumMato">
+    <meta name="twitter:url" content="https://kevinmto.github.io/beyond-gate/publications.html">
+    <meta name="twitter:title" content="Publications - Kevin Mato | Quantum Computing Research">
+    <meta name="twitter:description" content="Research publications by Kevin Mato on quantum computing, qudit systems, and HPC. 154+ citations.">
+    <meta name="twitter:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        .publication-item {
+            background: var(--card-bg, #f8f9fa);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--primary-color, #3498db);
+        }
+        .publication-item h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        .publication-item h3 a {
+            color: var(--text-color, #1a1a2e);
+            text-decoration: none;
+        }
+        .publication-item h3 a:hover {
+            color: var(--primary-color, #3498db);
+        }
+        .publication-meta {
+            color: var(--text-muted, #666);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        .publication-authors {
+            font-style: italic;
+            margin-bottom: 0.5rem;
+            color: #555;
+        }
+        .publication-venue {
+            color: var(--primary-color, #3498db);
+            font-weight: 500;
+        }
+        .publication-citations {
+            display: inline-block;
+            background: #e8f4f8;
+            color: #2980b9;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+        .publication-links {
+            margin-top: 0.75rem;
+        }
+        .publication-links a {
+            display: inline-block;
+            margin-right: 1rem;
+            font-size: 0.85rem;
+            color: var(--primary-color, #3498db);
+        }
+        .publication-year {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color, #2c3e50);
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--primary-color, #3498db);
+        }
+        .profile-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: var(--card-bg, #f8f9fa);
+            border-radius: 8px;
+        }
+        .profile-links a {
+            padding: 0.5rem 1rem;
+            background: #3498db;
+            color: white;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .profile-links a:hover {
+            background: #2980b9;
+        }
+        .stats-box {
+            display: flex;
+            gap: 2rem;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+            border-radius: 8px;
+            color: white;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        .stat-label {
+            font-size: 0.85rem;
+            opacity: 0.9;
+        }
+    </style>
+    
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kevinmto.github.io/beyond-gate/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Publications",
+                        "item": "https://kevinmto.github.io/beyond-gate/publications.html"
+                    }
+                ]
+            },
+            {
+                "@type": "CollectionPage",
+                "url": "https://kevinmto.github.io/beyond-gate/publications.html",
+                "name": "Publications by Kevin Mato",
+                "description": "Research publications by Kevin Mato on quantum computing, qudit systems, and high-performance computing.",
+                "author": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                "name": "Kevin Mato",
+                "jobTitle": "Quantum Computing Libraries Engineer",
+                "worksFor": {"@type": "Organization", "name": "NVIDIA"},
+                "sameAs": [
+                    "https://scholar.google.com/citations?user=2l0R_hkAAAAJ",
+                    "https://orcid.org/0000-0003-2073-5226",
+                    "https://dblp.org/pid/334/2766.html"
+                ]
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "headline": "MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing",
+                "author": [{"@type": "Person", "name": "Kevin Mato"}, {"@type": "Person", "name": "Martin Ringbauer"}, {"@type": "Person", "name": "Lukas Burgholzer"}, {"@type": "Person", "name": "Robert Wille"}],
+                "datePublished": "2024",
+                "url": "https://arxiv.org/abs/2410.02854"
+            },
+            {
+                "@type": "ScholarlyArticle",
+                "headline": "Quantum Molecular Unfolding",
+                "author": [{"@type": "Person", "name": "Kevin Mato"}, {"@type": "Person", "name": "Riccardo Mengoni"}, {"@type": "Person", "name": "Daniele Ottaviani"}, {"@type": "Person", "name": "Gianluca Palermo"}],
+                "datePublished": "2022",
+                "isPartOf": {"@type": "Periodical", "name": "Quantum Science and Technology"}
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="nav-brand">🚪 Beyond the Gate</a>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link active">Publications</a></li>
+                    <li><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="page-header">
+            <h1>Publications</h1>
+            <p>Research papers on quantum computing, qudit systems, compilation, and simulation.</p>
+        </div>
+
+        <!-- Citation Stats -->
+        <div class="stats-box">
+            <div class="stat-item">
+                <div class="stat-number">154+</div>
+                <div class="stat-label">Citations</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">7</div>
+                <div class="stat-label">H-index</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">5</div>
+                <div class="stat-label">i10-index</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">12+</div>
+                <div class="stat-label">Publications</div>
+            </div>
+        </div>
+
+        <!-- Academic Profile Links -->
+        <div class="profile-links">
+            <a href="https://scholar.google.com/citations?user=2l0R_hkAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+            <a href="https://dblp.org/pid/334/2766.html" target="_blank" rel="noopener noreferrer">dblp</a>
+            <a href="https://arxiv.org/search/quant-ph?searchtype=author&query=Mato%2C+K" target="_blank" rel="noopener noreferrer">arXiv</a>
+            <a href="https://orcid.org/0000-0003-2073-5226" target="_blank" rel="noopener noreferrer">ORCID</a>
+            <a href="https://www.semanticscholar.org/author/Kevin-Mato/2121403410" target="_blank" rel="noopener noreferrer">Semantic Scholar</a>
+            <a href="https://www.researchgate.net/profile/Kevin-Mato" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+        </div>
+
+        <!-- Publications by Year -->
+        <section class="publications-list">
+            
+            <h2 class="publication-year">2025</h2>
+            
+            <div class="publication-item">
+                <h3><a href="https://arxiv.org/abs/2507.12614" target="_blank" rel="noopener noreferrer">Probing Hadron Scattering in Lattice Gauge Theories on Qudit Quantum Computers</a></h3>
+                <p class="publication-authors">R. Joshi, J.C. Louw, M. Meth, J.J. Osborne, K. Mato, G.X. Su, M. Ringbauer, J.C. Halimeh</p>
+                <p class="publication-meta"><span class="publication-venue">arXiv preprint</span> • 2025 <span class="publication-citations">2 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2507.12614" target="_blank" rel="noopener noreferrer">arXiv</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://arxiv.org/abs/2507.12589" target="_blank" rel="noopener noreferrer">Efficient Qudit Circuit for Quench Dynamics of D Quantum Link Electrodynamics</a></h3>
+                <p class="publication-authors">R. Joshi, M. Meth, J.C. Louw, J.J. Osborne, K. Mato, M. Ringbauer, J.C. Halimeh</p>
+                <p class="publication-meta"><span class="publication-venue">arXiv preprint</span> • 2025 <span class="publication-citations">1 citation</span></p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2507.12589" target="_blank" rel="noopener noreferrer">arXiv</a>
+                </div>
+            </div>
+
+            <h2 class="publication-year">2024</h2>
+            
+            <div class="publication-item">
+                <h3><a href="https://arxiv.org/abs/2410.02854" target="_blank" rel="noopener noreferrer">MQT Qudits: A Software Framework for Mixed-Dimensional Quantum Computing</a></h3>
+                <p class="publication-authors">K. Mato, M. Ringbauer, L. Burgholzer, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">arXiv preprint</span> • 2024 <span class="publication-citations">8 citations</span></p>
+                <p>First open-source framework for mixed-dimensional quantum computing, featuring multiple simulators, a compiler, and a programming language.</p>
+                <div class="publication-links">
+                    <a href="https://arxiv.org/abs/2410.02854" target="_blank" rel="noopener noreferrer">arXiv</a>
+                    <a href="https://github.com/cda-tum/mqt-qudits" target="_blank" rel="noopener noreferrer">Code</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://ieeexplore.ieee.org/document/10670603" target="_blank" rel="noopener noreferrer">The MQT Handbook: A Summary of Design Automation Tools and Software for Quantum Computing</a></h3>
+                <p class="publication-authors">R. Wille, L. Berent, T. Forster, J. Kunasaikaran, K. Mato, T. Peham, ...</p>
+                <p class="publication-meta"><span class="publication-venue">IEEE International Conference on Quantum Software (QSW)</span> • 2024 <span class="publication-citations">56 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://ieeexplore.ieee.org/document/10670603" target="_blank" rel="noopener noreferrer">IEEE</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://dl.acm.org/doi/10.1145/3649329.3655915" target="_blank" rel="noopener noreferrer">Mixed-Dimensional Qudit State Preparation Using Edge-Weighted Decision Diagrams</a></h3>
+                <p class="publication-authors">K. Mato, S. Hillmich, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">ACM/IEEE Design Automation Conference (DAC)</span> • 2024 <span class="publication-citations">7 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3649329.3655915" target="_blank" rel="noopener noreferrer">ACM</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://ieeexplore.ieee.org/document/10508627" target="_blank" rel="noopener noreferrer">A Framework for the Design and Realization of Alternative Superconducting Quantum Architectures</a></h3>
+                <p class="publication-authors">J. Kunasaikaran, K. Mato, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">IEEE International Symposium on Multiple-Valued Logic (ISMVL)</span> • 2024 <span class="publication-citations">3 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://ieeexplore.ieee.org/document/10508627" target="_blank" rel="noopener noreferrer">IEEE</a>
+                </div>
+            </div>
+
+            <h2 class="publication-year">2023</h2>
+            
+            <div class="publication-item">
+                <h3><a href="https://ieeexplore.ieee.org/document/10313622" target="_blank" rel="noopener noreferrer">Mixed-Dimensional Quantum Circuit Simulation with Decision Diagrams</a></h3>
+                <p class="publication-authors">K. Mato, S. Hillmich, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">IEEE International Conference on Quantum Computing and Engineering (QCE)</span> • 2023 <span class="publication-citations">5 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://ieeexplore.ieee.org/document/10313622" target="_blank" rel="noopener noreferrer">IEEE</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://dl.acm.org/doi/10.1145/3566097.3567930" target="_blank" rel="noopener noreferrer">Compilation of Entangling Gates for High-Dimensional Quantum Systems</a></h3>
+                <p class="publication-authors">K. Mato, M. Ringbauer, S. Hillmich, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">Asia and South Pacific Design Automation Conference (ASP-DAC)</span> • 2023 <span class="publication-citations">11 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3566097.3567930" target="_blank" rel="noopener noreferrer">ACM</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://ieeexplore.ieee.org/document/10234046" target="_blank" rel="noopener noreferrer">Compression of Qubit Circuits: Mapping to Mixed-Dimensional Quantum Systems</a></h3>
+                <p class="publication-authors">K. Mato, S. Hillmich, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">IEEE International Conference on Quantum Software (QSW)</span> • 2023 <span class="publication-citations">12 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://ieeexplore.ieee.org/document/10234046" target="_blank" rel="noopener noreferrer">IEEE</a>
+                </div>
+            </div>
+
+            <h2 class="publication-year">2022</h2>
+            
+            <div class="publication-item">
+                <h3><a href="https://ieeexplore.ieee.org/document/9951270" target="_blank" rel="noopener noreferrer">Adaptive Compilation of Multi-Level Quantum Operations</a></h3>
+                <p class="publication-authors">K. Mato, M. Ringbauer, S. Hillmich, R. Wille</p>
+                <p class="publication-meta"><span class="publication-venue">IEEE International Conference on Quantum Computing and Engineering (QCE)</span> • 2022 <span class="publication-citations">15 citations</span></p>
+                <div class="publication-links">
+                    <a href="https://ieeexplore.ieee.org/document/9951270" target="_blank" rel="noopener noreferrer">IEEE</a>
+                </div>
+            </div>
+
+            <div class="publication-item">
+                <h3><a href="https://iopscience.iop.org/article/10.1088/2058-9565/ac73f4" target="_blank" rel="noopener noreferrer">Quantum Molecular Unfolding</a></h3>
+                <p class="publication-authors">K. Mato, R. Mengoni, D. Ottaviani, G. Palermo</p>
+                <p class="publication-meta"><span class="publication-venue">Quantum Science and Technology</span> • 2022 <span class="publication-citations">29 citations</span></p>
+                <p>First in silico drug discovery molecular docking algorithm on a quantum annealer.</p>
+                <div class="publication-links">
+                    <a href="https://iopscience.iop.org/article/10.1088/2058-9565/ac73f4" target="_blank" rel="noopener noreferrer">IOP Science</a>
+                </div>
+            </div>
+
+            <h2 class="publication-year">2020</h2>
+            
+            <div class="publication-item">
+                <h3>Molecular Unfolding with Quantum Annealing</h3>
+                <p class="publication-authors">K. Mato</p>
+                <p class="publication-meta"><span class="publication-venue">Master's Thesis</span> • 2020</p>
+                <p>Research on quantum annealing applications for molecular docking problems.</p>
+            </div>
+
+        </section>
+
+        <div class="contact-note" style="margin-top: 2rem;">
+            <h3>Disclaimer</h3>
+            <p><em>The information on this page may be out of date.</em> For the most up-to-date list of publications and citation counts, please visit my <a href="https://scholar.google.com/citations?user=2l0R_hkAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar profile</a>.</p>
+        </div>
+
+        <!-- Page Navigation -->
+        <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px; text-align: center;">
+            <p style="color: #666; margin-bottom: 1rem;">Interested in more insights and thoughts?</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="blog.html" class="btn btn-primary">Read the Blog →</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 <span id="footer-name">Kevin Mato</span>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            loadSiteData();
+        });
+    </script>
+</body>
+</html>

@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contact information and professional links">
-    <meta name="keywords" content="contact, email, linkedin, github, professional">
-    <title>Contact - Engineer Portfolio</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Contact Kevin Mato - Quantum Computing Engineer</title>
+    <meta name="title" content="Contact Kevin Mato - Quantum Computing Engineer">
+    <meta name="description" content="Get in touch with Kevin Mato for collaboration, consulting, or discussions about quantum computing, HPC, and open-source development.">
+    <meta name="keywords" content="Kevin Mato, contact, quantum computing, NVIDIA, consulting, collaboration">
+    <meta name="author" content="Kevin Mato">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kevinmto.github.io/beyond-gate/contact.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kevinmto.github.io/beyond-gate/contact.html">
+    <meta property="og:title" content="Contact Kevin Mato - Quantum Computing Engineer">
+    <meta property="og:description" content="Get in touch with Kevin Mato for collaboration, consulting, or discussions about quantum computing and HPC.">
+    <meta property="og:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    <meta property="og:site_name" content="Beyond the Gate - Kevin Mato">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QuantumMato">
+    <meta name="twitter:creator" content="@QuantumMato">
+    <meta name="twitter:url" content="https://kevinmto.github.io/beyond-gate/contact.html">
+    <meta name="twitter:title" content="Contact Kevin Mato - Quantum Computing Engineer">
+    <meta name="twitter:description" content="Get in touch with Kevin Mato for collaboration, consulting, or discussions about quantum computing and HPC.">
+    <meta name="twitter:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JSON-LD Structured Data: ContactPage + Person + BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kevinmto.github.io/beyond-gate/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Contact",
+                        "item": "https://kevinmto.github.io/beyond-gate/contact.html"
+                    }
+                ]
+            },
+            {
+                "@type": "ContactPage",
+                "url": "https://kevinmto.github.io/beyond-gate/contact.html",
+                "name": "Contact Kevin Mato",
+                "description": "Get in touch with Kevin Mato for collaboration, consulting, or discussions.",
+                "mainEntity": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                },
+                "isPartOf": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#website"
+                }
+            },
+            {
+                "@type": "Person",
+                "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                "name": "Kevin Mato",
+                "email": "kevinmato.quantum@gmail.com",
+                "jobTitle": "Quantum Computing Libraries Engineer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "NVIDIA"
+                },
+                "url": "https://kevinmto.github.io/beyond-gate/",
+                "image": "https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png",
+                "sameAs": [
+                    "https://linkedin.com/in/kevin-mato-quantum",
+                    "https://github.com/KevinMTO",
+                    "https://github.com/kvmto",
+                    "https://x.com/QuantumMato",
+                    "https://scholar.google.com/citations?user=2l0R_hkAAAAJ",
+                    "https://orcid.org/0000-0003-2073-5226",
+                    "https://www.researchgate.net/profile/Kevin-Mato",
+                    "https://www.semanticscholar.org/author/Kevin-Mato/2121403410",
+                    "https://dblp.org/pid/334/2766.html",
+                    "https://arxiv.org/search/quant-ph?searchtype=author&query=Mato%2C+K",
+                    "https://scirate.com/search?utf8=%E2%9C%93&q=kevin+mato"
+                ]
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +116,7 @@
                     <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link">Publications</a></li>
                     <li><a href="blog.html" class="nav-link">Blog</a></li>
                     <li><a href="contact.html" class="nav-link active">Contact</a></li>
                 </ul>
@@ -30,42 +130,171 @@
             <p>I'm always interested in new opportunities and technical discussions.</p>
         </div>
 
-        <div class="contact-content">
-            <!-- Contact information - loaded from site.json -->
-            <div class="contact-info">
-                <div class="contact-item">
-                    <h3>Email</h3>
-                    <p><a href="mailto:" id="contact-email">Loading...</a></p>
-                </div>
+        <style>
+            .contact-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 2rem;
+                margin-bottom: 3rem;
+            }
+            @media (max-width: 768px) {
+                .contact-grid {
+                    grid-template-columns: 1fr;
+                }
+            }
+            .contact-card {
+                background: #f8f9fa;
+                border-radius: 12px;
+                padding: 2rem;
+                text-align: center;
+            }
+            .contact-card h2 {
+                color: #2c3e50;
+                margin-bottom: 1rem;
+                font-size: 1.4rem;
+            }
+            .contact-card p {
+                color: #666;
+                margin-bottom: 1.5rem;
+            }
+            .message-buttons {
+                display: flex;
+                gap: 1rem;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .btn-linkedin {
+                background: #0077b5;
+                color: white;
+                padding: 12px 24px;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                transition: all 0.3s ease;
+            }
+            .btn-linkedin:hover {
+                background: #005885;
+                transform: translateY(-2px);
+            }
+            .btn-email {
+                background: #2c3e50;
+                color: white;
+                padding: 12px 24px;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 600;
+                display: inline-flex;
+                align-items: center;
+                gap: 8px;
+                transition: all 0.3s ease;
+            }
+            .btn-email:hover {
+                background: #1a252f;
+                transform: translateY(-2px);
+            }
+            .btn-calendar {
+                background: #3498db;
+                color: white;
+                padding: 14px 28px;
+                border-radius: 6px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 1.1rem;
+                display: inline-flex;
+                align-items: center;
+                gap: 10px;
+                transition: all 0.3s ease;
+            }
+            .btn-calendar:hover {
+                background: #2980b9;
+                transform: translateY(-2px);
+            }
+            .links-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin-top: 1rem;
+            }
+            .links-table td {
+                padding: 12px 16px;
+                border-bottom: 1px solid #ecf0f1;
+            }
+            .links-table tr:last-child td {
+                border-bottom: none;
+            }
+            .links-table td:first-child {
+                font-weight: 600;
+                color: #2c3e50;
+                width: 40%;
+            }
+            .links-table a {
+                color: #3498db;
+                text-decoration: none;
+            }
+            .links-table a:hover {
+                text-decoration: underline;
+            }
+        </style>
 
-                <div class="contact-links">
-                    <h3>Professional Links</h3>
-                    <div id="professional-links" class="social-links">
-                        <div class="loading">Loading...</div>
-                    </div>
+        <!-- Schedule a Meeting - Top -->
+        <div class="contact-card" style="margin-bottom: 2rem;">
+            <h2>📅 Schedule a Meeting</h2>
+            <p>Book a time slot directly on my calendar for a chat or consultation.</p>
+            <a href="https://calendar.app.google/m3SEpTSZY7XTWvit9" target="_blank" rel="noopener noreferrer" class="btn-calendar">
+                Book a Time Slot
+            </a>
+        </div>
+
+        <!-- Two column grid: Send Message + Professional Links -->
+        <div class="contact-grid">
+            <!-- Send me a message -->
+            <div class="contact-card">
+                <h2>💬 Send Me a Message</h2>
+                <p>Reach out via LinkedIn or email - I typically respond within 24 hours.</p>
+                <div class="message-buttons">
+                    <a href="https://linkedin.com/in/kevin-mato-quantum" target="_blank" rel="noopener noreferrer" class="btn-linkedin">
+                        💼 LinkedIn
+                    </a>
+                    <a href="mailto:kevinmato.quantum@gmail.com" class="btn-email">
+                        ✉️ Email
+                    </a>
                 </div>
             </div>
 
-            <!-- Calendar booking -->
-            <div class="contact-item">
-                <h3>Schedule a Meeting</h3>
-                <p>Book a time slot directly on my calendar for a chat or consultation.</p>
-                <a href="https://calendar.app.google/m3SEpTSZY7XTWvit9" target="_blank" rel="noopener noreferrer" class="btn calendar-btn">
-                    📅 Book a Time Slot
-                </a>
-            </div>
-
-            <!-- Optional: Contact form or additional info -->
-            <div class="contact-note">
-                <h3>Let's Connect</h3>
-                <p>Whether you're interested in collaboration, have questions about my work, or just want to discuss engineering topics, feel free to reach out. I typically respond within 24 hours.</p>
+            <!-- Professional Links Table -->
+            <div class="contact-card">
+                <h2>🔗 Professional Links</h2>
+                <table class="links-table">
+                    <tr>
+                        <td>LinkedIn</td>
+                        <td><a href="https://linkedin.com/in/kevin-mato-quantum" target="_blank" rel="noopener noreferrer">kevin-mato-quantum</a></td>
+                    </tr>
+                    <tr>
+                        <td>GitHub (Professional)</td>
+                        <td><a href="https://github.com/kvmto" target="_blank" rel="noopener noreferrer">kvmto</a></td>
+                    </tr>
+                    <tr>
+                        <td>GitHub (Personal)</td>
+                        <td><a href="https://github.com/KevinMTO" target="_blank" rel="noopener noreferrer">KevinMTO</a></td>
+                    </tr>
+                    <tr>
+                        <td>Twitter/X</td>
+                        <td><a href="https://x.com/QuantumMato" target="_blank" rel="noopener noreferrer">@QuantumMato</a></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><a href="mailto:kevinmato.quantum@gmail.com">kevinmato.quantum@gmail.com</a></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+            <p>&copy; 2025 <span id="footer-name">Kevin Mato</span>. All rights reserved.</p>
         </div>
     </footer>
 

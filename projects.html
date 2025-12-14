@@ -3,10 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Engineering projects and technical achievements">
-    <meta name="keywords" content="projects, engineering, software, portfolio">
-    <title>Projects - Engineer Portfolio</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Projects - Kevin Mato | Quantum Computing &amp; HPC</title>
+    <meta name="title" content="Projects - Kevin Mato | Quantum Computing & HPC">
+    <meta name="description" content="Explore Kevin Mato's projects including MQT Qudits, quantum molecular docking, and NVIDIA quantum libraries. Open-source quantum computing software and HPC tools.">
+    <meta name="keywords" content="Kevin Mato, projects, MQT Qudits, quantum computing, NVIDIA, HPC, open source, quantum simulation, quantum compilation">
+    <meta name="author" content="Kevin Mato">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kevinmto.github.io/beyond-gate/projects.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kevinmto.github.io/beyond-gate/projects.html">
+    <meta property="og:title" content="Projects - Kevin Mato | Quantum Computing & HPC">
+    <meta property="og:description" content="Explore Kevin Mato's projects including MQT Qudits, quantum molecular docking, and NVIDIA quantum libraries.">
+    <meta property="og:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    <meta property="og:site_name" content="Beyond the Gate - Kevin Mato">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QuantumMato">
+    <meta name="twitter:creator" content="@QuantumMato">
+    <meta name="twitter:url" content="https://kevinmto.github.io/beyond-gate/projects.html">
+    <meta name="twitter:title" content="Projects - Kevin Mato | Quantum Computing & HPC">
+    <meta name="twitter:description" content="Explore Kevin Mato's projects including MQT Qudits, quantum molecular docking, and NVIDIA quantum libraries.">
+    <meta name="twitter:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JSON-LD Structured Data: CollectionPage + SoftwareApplication + BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kevinmto.github.io/beyond-gate/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Projects",
+                        "item": "https://kevinmto.github.io/beyond-gate/projects.html"
+                    }
+                ]
+            },
+            {
+                "@type": "CollectionPage",
+                "url": "https://kevinmto.github.io/beyond-gate/projects.html",
+                "name": "Projects by Kevin Mato",
+                "description": "A collection of quantum computing and HPC projects by Kevin Mato.",
+                "author": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                },
+                "isPartOf": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#website"
+                }
+            },
+            {
+                "@type": "SoftwareApplication",
+                "name": "MQT Qudits",
+                "description": "First open-source framework for mixed-dimensional quantum computing, featuring multiple simulators, a compiler, and a programming language based on OpenQASM 2.0.",
+                "applicationCategory": "Quantum Computing Software",
+                "operatingSystem": "Cross-platform",
+                "programmingLanguage": ["C++", "Python"],
+                "url": "https://github.com/cda-tum/mqt-qudits",
+                "author": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                },
+                "dateCreated": "2023",
+                "license": "https://opensource.org/licenses/MIT",
+                "keywords": ["quantum computing", "qudit", "quantum simulation", "quantum compilation"]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                "name": "Kevin Mato",
+                "jobTitle": "Quantum Computing Libraries Engineer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "NVIDIA"
+                },
+                "url": "https://kevinmto.github.io/beyond-gate/"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +116,7 @@
                     <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link">Publications</a></li>
                     <li><a href="blog.html" class="nav-link">Blog</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
@@ -30,23 +130,58 @@
             <p>A selection of my recent engineering work and technical achievements.</p>
         </div>
 
-        <!-- Projects grid - populated from projects.json -->
+        <!-- Projects grid - pre-rendered for SEO, then updated by JS -->
         <div id="projects-grid" class="projects-grid">
-            <div class="loading">Loading projects...</div>
+            <div class="project-card">
+                <h3>MQT Qudits @ TUM</h3>
+                <p style="margin-bottom: 0.5rem;">Now part of <a href="https://munichquantum.software/" target="_blank" rel="noopener noreferrer" style="color: #3498db;">Munich Quantum Software Company</a></p>
+                <p>First open-source framework for mixed-dimensional quantum computing, featuring multiple simulators, a compiler, and a programming language based on OpenQASM 2.0.</p>
+                <div class="project-tech">
+                    <strong>Technologies:</strong> C++, Python, Tensor Networks, Decision Diagrams, OpenQASM
+                </div>
+                <a href="https://github.com/cda-tum/mqt-qudits" class="project-link" target="_blank" rel="noopener noreferrer">
+                    View Project →
+                </a>
+            </div>
+            <div class="project-card">
+                <h3>Quantum Computing Libraries @ NVIDIA</h3>
+                <p style="margin-bottom: 1rem;">At NVIDIA, I work on pathfinding and engineering across the quantum software stack — from compilers and quantum software architectures to real-time systems running on heterogeneous hardware (CPU, GPU, QPU).</p>
+                
+                <p style="margin-bottom: 0.5rem; color: #555;">I contribute to <strong>CUDA-Q</strong>, the quantum-classical programming platform that enables hybrid algorithm development with seamless GPU acceleration.</p>
+                <a href="https://github.com/NVIDIA/cuda-quantum" class="project-link" target="_blank" rel="noopener noreferrer" style="margin-bottom: 1rem; display: inline-block;">CUDA-Q →</a>
+                
+                <p style="margin-bottom: 0.5rem; color: #555;">My work on <strong>CUDA-QX</strong> focuses on quantum algorithm software development, such as quantum chemistry algorithms, and full-stack quantum error correction — bridging the gap between hardware and software for fault-tolerant quantum computing.</p>
+                <a href="https://github.com/NVIDIA/cudaqx" class="project-link" target="_blank" rel="noopener noreferrer" style="margin-bottom: 1rem; display: inline-block;">CUDA-QX →</a>
+                
+                <p style="margin-bottom: 0.5rem; color: #555;">I contributed also on <strong>cuQuantum</strong> for GPU-based quantum circuit simulations, enabling researchers to push the boundaries of what's possible before real hardware is available.</p>
+                <a href="https://github.com/NVIDIA/cuQuantum" class="project-link" target="_blank" rel="noopener noreferrer" style="margin-bottom: 1rem; display: inline-block;">cuQuantum →</a>
+                
+                <div class="project-tech">
+                    <strong>Technologies:</strong> C++, CUDA, Python, Quantum Error Correction
+                </div>
+            </div>
+        </div>
+
+        <!-- Page Navigation -->
+        <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px; text-align: center;">
+            <p style="color: #666; margin-bottom: 1rem;">Want to dive deeper into the research?</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="publications.html" class="btn btn-primary">View Publications →</a>
+                <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+            <p>&copy; 2025 <span id="footer-name">Kevin Mato</span>. All rights reserved.</p>
         </div>
     </footer>
 
     <script src="js/main.js"></script>
     <script>
-        // Load projects when page loads
+        // Load site data for footer name only (projects are pre-rendered)
         document.addEventListener('DOMContentLoaded', function() {
-            loadProjectsData();
             loadSiteData(); // For footer name
         });
     </script>

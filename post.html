@@ -3,10 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Blog post">
-    <meta name="keywords" content="blog, engineering, technical">
-    <title id="post-page-title">Blog Post - Engineer Portfolio</title>
+    
+    <!-- Primary Meta Tags (will be updated by JS for specific post) -->
+    <title id="post-page-title">Blog Post - Beyond the Gate | Kevin Mato</title>
+    <meta name="description" id="post-meta-description" content="Technical blog post by Kevin Mato on quantum computing, HPC, and engineering.">
+    <meta name="keywords" content="Kevin Mato, blog, quantum computing, HPC, technical">
+    <meta name="author" content="Kevin Mato">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL (will be updated by JS) -->
+    <link rel="canonical" id="post-canonical" href="https://kevinmto.github.io/beyond-gate/post.html">
+    
+    <!-- Open Graph / Facebook (will be updated by JS) -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" id="post-og-url" content="https://kevinmto.github.io/beyond-gate/post.html">
+    <meta property="og:title" id="post-og-title" content="Blog Post - Beyond the Gate">
+    <meta property="og:description" id="post-og-description" content="Technical blog post by Kevin Mato.">
+    <meta property="og:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    <meta property="og:site_name" content="Beyond the Gate - Kevin Mato">
+    <meta property="article:author" content="Kevin Mato">
+    <meta property="article:publisher" content="https://kevinmto.github.io/beyond-gate/">
+    
+    <!-- Twitter Card (will be updated by JS) -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QuantumMato">
+    <meta name="twitter:creator" content="@QuantumMato">
+    <meta name="twitter:url" id="post-twitter-url" content="https://kevinmto.github.io/beyond-gate/post.html">
+    <meta name="twitter:title" id="post-twitter-title" content="Blog Post - Beyond the Gate">
+    <meta name="twitter:description" id="post-twitter-description" content="Technical blog post by Kevin Mato.">
+    <meta name="twitter:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JSON-LD Structured Data: Article (will be updated by JS for specific post) -->
+    <script type="application/ld+json" id="article-schema">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kevinmto.github.io/beyond-gate/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kevinmto.github.io/beyond-gate/blog.html"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Article",
+                        "item": "https://kevinmto.github.io/beyond-gate/post.html"
+                    }
+                ]
+            },
+            {
+                "@type": "BlogPosting",
+                "@id": "https://kevinmto.github.io/beyond-gate/post.html#article",
+                "headline": "Blog Post",
+                "description": "Technical blog post by Kevin Mato.",
+                "datePublished": "2025-01-01",
+                "dateModified": "2025-01-01",
+                "author": {
+                    "@type": "Person",
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                    "name": "Kevin Mato",
+                    "url": "https://kevinmto.github.io/beyond-gate/",
+                    "jobTitle": "Quantum Computing Libraries Engineer",
+                    "worksFor": {
+                        "@type": "Organization",
+                        "name": "NVIDIA"
+                    },
+                    "sameAs": [
+                        "https://linkedin.com/in/kevin-mato-quantum",
+                        "https://github.com/KevinMTO",
+                        "https://x.com/QuantumMato",
+                        "https://scholar.google.com/citations?user=2l0R_hkAAAAJ",
+                        "https://orcid.org/0000-0003-2073-5226"
+                    ]
+                },
+                "publisher": {
+                    "@type": "Person",
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                    "name": "Kevin Mato"
+                },
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://kevinmto.github.io/beyond-gate/post.html"
+                },
+                "isPartOf": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/blog.html#blog"
+                },
+                "inLanguage": "en-US"
+            }
+        ]
+    }
+    </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
@@ -18,6 +125,7 @@
                     <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link">Publications</a></li>
                     <li><a href="blog.html" class="nav-link active">Blog</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
@@ -44,17 +152,92 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+            <p>&copy; 2025 <span id="footer-name">Kevin Mato</span>. All rights reserved.</p>
         </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="js/main.js"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        // Update meta tags and schema for specific blog post
+        function updatePostMeta(post) {
+            const url = `https://kevinmto.github.io/beyond-gate/post.html?id=${post.id}`;
+            
+            // Update title
+            document.title = `${post.title} - Beyond the Gate | Kevin Mato`;
+            document.getElementById('post-page-title').textContent = post.title;
+            
+            // Update meta description
+            const metaDesc = document.getElementById('post-meta-description');
+            if (metaDesc) metaDesc.content = post.excerpt;
+            
+            // Update canonical
+            const canonical = document.getElementById('post-canonical');
+            if (canonical) canonical.href = url;
+            
+            // Update Open Graph
+            const ogUrl = document.getElementById('post-og-url');
+            const ogTitle = document.getElementById('post-og-title');
+            const ogDesc = document.getElementById('post-og-description');
+            if (ogUrl) ogUrl.content = url;
+            if (ogTitle) ogTitle.content = post.title;
+            if (ogDesc) ogDesc.content = post.excerpt;
+            
+            // Update Twitter
+            const twUrl = document.getElementById('post-twitter-url');
+            const twTitle = document.getElementById('post-twitter-title');
+            const twDesc = document.getElementById('post-twitter-description');
+            if (twUrl) twUrl.content = url;
+            if (twTitle) twTitle.content = post.title;
+            if (twDesc) twDesc.content = post.excerpt;
+            
+            // Update JSON-LD schema
+            const schemaScript = document.getElementById('article-schema');
+            if (schemaScript) {
+                const schema = JSON.parse(schemaScript.textContent);
+                const article = schema['@graph'].find(item => item['@type'] === 'BlogPosting');
+                if (article) {
+                    article.headline = post.title;
+                    article.description = post.excerpt;
+                    article.datePublished = post.date;
+                    article.dateModified = post.date;
+                    article['@id'] = url + '#article';
+                    article.mainEntityOfPage['@id'] = url;
+                    if (post.tags) {
+                        article.keywords = post.tags;
+                    }
+                }
+                // Update breadcrumb
+                const breadcrumb = schema['@graph'].find(item => item['@type'] === 'BreadcrumbList');
+                if (breadcrumb && breadcrumb.itemListElement[2]) {
+                    breadcrumb.itemListElement[2].name = post.title;
+                    breadcrumb.itemListElement[2].item = url;
+                }
+                schemaScript.textContent = JSON.stringify(schema);
+            }
+        }
+        
+        document.addEventListener('DOMContentLoaded', async function() {
+            // Get post ID and fetch metadata first
+            const urlParams = new URLSearchParams(window.location.search);
+            const postId = urlParams.get('id');
+            
+            if (postId) {
+                try {
+                    const response = await fetch('data/blog.json');
+                    const data = await response.json();
+                    const post = data.posts.find(p => p.id === postId);
+                    if (post) {
+                        updatePostMeta(post);
+                    }
+                } catch (e) {
+                    console.error('Error loading post metadata:', e);
+                }
+            }
+            
             loadBlogPost();
             loadSiteData();
         });
     </script>
-    
 </body>
 </html>

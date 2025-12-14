@@ -3,10 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Engineering blog with technical insights and thoughts">
-    <meta name="keywords" content="blog, engineering, technical, insights">
-    <title>Blog - Engineer Portfolio</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Blog - Beyond the Gate | Kevin Mato</title>
+    <meta name="title" content="Blog - Beyond the Gate | Kevin Mato">
+    <meta name="description" content="Technical blog by Kevin Mato covering quantum computing, HPC, AI, and engineering insights. Deep dives into qudits, quantum compilation, and high-performance computing.">
+    <meta name="keywords" content="Kevin Mato, blog, quantum computing, HPC, AI, qudits, quantum compilation, NVIDIA, technical writing">
+    <meta name="author" content="Kevin Mato">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://kevinmto.github.io/beyond-gate/blog.html">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="blog">
+    <meta property="og:url" content="https://kevinmto.github.io/beyond-gate/blog.html">
+    <meta property="og:title" content="Blog - Beyond the Gate | Kevin Mato">
+    <meta property="og:description" content="Technical blog by Kevin Mato covering quantum computing, HPC, AI, and engineering insights.">
+    <meta property="og:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    <meta property="og:site_name" content="Beyond the Gate - Kevin Mato">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@QuantumMato">
+    <meta name="twitter:creator" content="@QuantumMato">
+    <meta name="twitter:url" content="https://kevinmto.github.io/beyond-gate/blog.html">
+    <meta name="twitter:title" content="Blog - Beyond the Gate | Kevin Mato">
+    <meta name="twitter:description" content="Technical blog by Kevin Mato covering quantum computing, HPC, AI, and engineering insights.">
+    <meta name="twitter:image" content="https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png">
+    
+    <!-- Google Search Console Verification -->
+    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    
+    <!-- RSS Feed -->
+    <link rel="alternate" type="application/rss+xml" title="Beyond the Gate - Kevin Mato Blog" href="https://kevinmto.github.io/beyond-gate/feed.xml">
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- JSON-LD Structured Data: Blog + BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://kevinmto.github.io/beyond-gate/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": "https://kevinmto.github.io/beyond-gate/blog.html"
+                    }
+                ]
+            },
+            {
+                "@type": "Blog",
+                "@id": "https://kevinmto.github.io/beyond-gate/blog.html#blog",
+                "url": "https://kevinmto.github.io/beyond-gate/blog.html",
+                "name": "Beyond the Gate",
+                "description": "Quantum, HPC, AI & Engineering Insights by Kevin Mato",
+                "author": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                },
+                "publisher": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                },
+                "isPartOf": {
+                    "@id": "https://kevinmto.github.io/beyond-gate/#website"
+                },
+                "inLanguage": "en-US",
+                "blogPost": [
+                    {
+                        "@type": "BlogPosting",
+                        "headline": "Exploring MQT Qudits: Beyond Binary Quantum Information",
+                        "description": "An introduction to MQT's support for qudits — higher-dimensional quantum systems — and why they matter for the future of quantum computing.",
+                        "datePublished": "2025-08-10",
+                        "url": "https://kevinmto.github.io/beyond-gate/post.html?id=mqt-qudits-introduction",
+                        "author": {
+                            "@id": "https://kevinmto.github.io/beyond-gate/#person"
+                        },
+                        "keywords": ["MQT", "qudits", "quantum computing", "simulation"]
+                    }
+                ]
+            },
+            {
+                "@type": "Person",
+                "@id": "https://kevinmto.github.io/beyond-gate/#person",
+                "name": "Kevin Mato",
+                "jobTitle": "Quantum Computing Libraries Engineer",
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "NVIDIA"
+                },
+                "url": "https://kevinmto.github.io/beyond-gate/"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +122,7 @@
                     <li><a href="index.html" class="nav-link">Home</a></li>
                     <li><a href="about.html" class="nav-link">About</a></li>
                     <li><a href="projects.html" class="nav-link">Projects</a></li>
+                    <li><a href="publications.html" class="nav-link">Publications</a></li>
                     <li><a href="blog.html" class="nav-link active">Blog</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
                 </ul>
@@ -30,15 +136,34 @@
             <p>Quantum, HPC, AI & Engineering Insights by Kevin Mato</p>
         </div>
 
-        <!-- Blog posts list - populated from blog.json -->
+        <!-- Blog posts list - pre-rendered for SEO, then updated by JS -->
         <div id="blog-posts" class="blog-posts">
-            <div class="loading">Loading blog posts...</div>
+            <article class="blog-post-preview">
+                <h2><a href="post.html?id=mqt-qudits-introduction">Exploring MQT Qudits: Beyond Binary Quantum Information</a></h2>
+                <div class="blog-post-meta">
+                    <time datetime="2025-08-10">August 10, 2025</time>
+                    • 6 min read
+                </div>
+                <div class="blog-post-excerpt">
+                    An introduction to MQT's support for qudits — higher-dimensional quantum systems — and why they matter for the future of quantum computing.
+                </div>
+                <a href="post.html?id=mqt-qudits-introduction" class="read-more">Read more →</a>
+            </article>
+        </div>
+
+        <!-- Page Navigation -->
+        <div style="margin-top: 3rem; padding: 2rem; background: #f8f9fa; border-radius: 12px; text-align: center;">
+            <p style="color: #666; margin-bottom: 1rem;">Want to collaborate or have questions?</p>
+            <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn btn-primary">Get in Touch →</a>
+                <a href="about.html" class="btn btn-secondary">Learn More About Me</a>
+            </div>
         </div>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 <span id="footer-name">Engineer</span>. All rights reserved.</p>
+            <p>&copy; 2025 <span id="footer-name">Kevin Mato</span>. All rights reserved.</p>
         </div>
     </footer>
 

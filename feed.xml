@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>Beyond the Gate - Kevin Mato</title>
+        <description>Quantum, HPC, AI &amp; Engineering Insights by Kevin Mato</description>
+        <link>https://kevinmto.github.io/beyond-gate/</link>
+        <atom:link href="https://kevinmto.github.io/beyond-gate/feed.xml" rel="self" type="application/rss+xml"/>
+        <language>en-US</language>
+        <copyright>Copyright 2025 Kevin Mato</copyright>
+        <managingEditor>kevinmato.quantum@gmail.com (Kevin Mato)</managingEditor>
+        <webMaster>kevinmato.quantum@gmail.com (Kevin Mato)</webMaster>
+        <lastBuildDate>Sun, 14 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <category>Quantum Computing</category>
+        <category>HPC</category>
+        <category>Technology</category>
+        <image>
+            <url>https://kevinmto.github.io/beyond-gate/img/kevin-mato-quantum-computing-engineer.png</url>
+            <title>Beyond the Gate - Kevin Mato</title>
+            <link>https://kevinmto.github.io/beyond-gate/</link>
+        </image>
+        
+        <item>
+            <title>Exploring MQT Qudits: Beyond Binary Quantum Information</title>
+            <description>An introduction to MQT's support for qudits — higher-dimensional quantum systems — and why they matter for the future of quantum computing.</description>
+            <link>https://kevinmto.github.io/beyond-gate/post.html?id=mqt-qudits-introduction</link>
+            <guid isPermaLink="true">https://kevinmto.github.io/beyond-gate/post.html?id=mqt-qudits-introduction</guid>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <dc:creator>Kevin Mato</dc:creator>
+            <category>MQT</category>
+            <category>qudits</category>
+            <category>quantum computing</category>
+            <category>simulation</category>
+        </item>
+    </channel>
+</rss>
+

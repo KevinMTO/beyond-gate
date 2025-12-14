@@ -1,0 +1,12 @@
+# robots.txt for Beyond the Gate - Kevin Mato
+# https://kevinmto.github.io/beyond-gate/
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://kevinmto.github.io/beyond-gate/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 1
+
