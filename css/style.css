@@ -1,13 +1,22 @@
-/* 
- * Personal Engineer Website Stylesheet
- * Clean, modern, mobile-first design
+/*
+ * Beyond the Gate - Personal Website Template
  * 
- * Color Palette:
- * Primary: #2c3e50 (dark blue-gray)
- * Secondary: #3498db (blue)
- * Accent: #e74c3c (red)
- * Text: #2c3e50 (dark)
- * Light gray: #ecf0f1
+ * Copyright (c) 2025 Kevin Mato. All rights reserved.
+ * Licensed under MIT with Attribution Requirement.
+ * https://github.com/KevinMTO/beyond-gate
+ * 
+ * If you use this template, you must include attribution to Kevin Mato.
+ * See LICENSE file for full terms.
+ * 
+ * ---
+ * 
+ * Color Palette: Quantum Purple
+ * Primary: #1a1a2e (deep space)
+ * Secondary: #6366f1 (indigo)
+ * Accent: #a855f7 (violet)
+ * Hover: #4f46e5
+ * Text: #1a1a2e
+ * Light: #f5f5fa
  * White: #ffffff
  */
 
@@ -25,7 +34,7 @@ html {
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    color: #2c3e50;
+    color: #1a1a2e;
     background-color: #ffffff;
     line-height: 1.6;
 }
@@ -39,8 +48,8 @@ body {
 
 /* Navigation */
 .navbar {
-    background: #2c3e50;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
+    box-shadow: 0 2px 8px rgba(26, 26, 46, 0.3);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -70,7 +79,7 @@ body {
 }
 
 .nav-link {
-    color: #ecf0f1;
+    color: #e0e0e8;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s ease;
@@ -78,7 +87,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: #3498db;
+    color: #a855f7;
 }
 
 /* Mobile navigation */
@@ -111,20 +120,20 @@ main {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: #1a1a2e;
 }
 
 .hero h2 {
     font-size: 1.5rem;
     font-weight: 400;
-    color: #3498db;
+    color: #6366f1;
     margin-bottom: 1.5rem;
 }
 
 .hero p {
     font-size: 1.2rem;
     margin-bottom: 2rem;
-    color: #7f8c8d;
+    color: #5a5a7a;
 }
 
 .hero-links {
@@ -138,7 +147,7 @@ main {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    border-radius: 6px;
+    border-radius: 8px;
     text-decoration: none;
     font-weight: 600;
     text-align: center;
@@ -147,23 +156,24 @@ main {
 }
 
 .btn-primary {
-    background: #3498db;
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
     color: #ffffff;
 }
 
 .btn-primary:hover {
-    background: #2980b9;
+    background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
 }
 
 .btn-secondary {
     background: transparent;
-    color: #3498db;
-    border-color: #3498db;
+    color: #6366f1;
+    border-color: #6366f1;
 }
 
 .btn-secondary:hover {
-    background: #3498db;
+    background: #6366f1;
     color: #ffffff;
     transform: translateY(-2px);
 }
@@ -181,29 +191,30 @@ main {
 
 .link-card {
     background: #ffffff;
-    border: 1px solid #ecf0f1;
-    border-radius: 8px;
+    border: 1px solid #e8e8f0;
+    border-radius: 12px;
     padding: 2rem;
     text-decoration: none;
-    color: #2c3e50;
+    color: #1a1a2e;
     transition: all 0.3s ease;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(26, 26, 46, 0.05);
+    text-align: center;
 }
 
 .link-card:hover {
-    border-color: #3498db;
-    box-shadow: 0 8px 16px rgba(52, 152, 219, 0.1);
+    border-color: #6366f1;
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
     transform: translateY(-4px);
 }
 
 .link-card h3 {
-    color: #2c3e50;
+    color: #1a1a2e;
     margin-bottom: 0.5rem;
     font-size: 1.3rem;
 }
 
 .link-card p {
-    color: #7f8c8d;
+    color: #5a5a7a;
     font-size: 0.95rem;
 }
 
@@ -216,13 +227,13 @@ main {
 .page-header h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #2c3e50;
+    color: #1a1a2e;
     margin-bottom: 0.5rem;
 }
 
 .page-header p {
     font-size: 1.1rem;
-    color: #7f8c8d;
+    color: #5a5a7a;
     max-width: 600px;
     margin: 0 auto;
 }
@@ -238,11 +249,11 @@ main {
 }
 
 .about-section h2 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 1.8rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid #ecf0f1;
+    border-bottom: 2px solid #e8e8f0;
 }
 
 .about-section p {
@@ -268,39 +279,111 @@ main {
 
 .project-card {
     background: #ffffff;
-    border: 1px solid #ecf0f1;
-    border-radius: 8px;
+    border: 1px solid #e8e8f0;
+    border-radius: 12px;
     padding: 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(26, 26, 46, 0.05);
     transition: all 0.3s ease;
 }
 
 .project-card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
     transform: translateY(-4px);
 }
 
 .project-card h3 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
 
 .project-card p {
-    color: #7f8c8d;
+    color: #5a5a7a;
     line-height: 1.6;
     margin-bottom: 1.5rem;
 }
 
 .project-link {
-    color: #3498db;
+    color: #6366f1;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .project-link:hover {
-    color: #2980b9;
+    color: #4f46e5;
+}
+
+/* NVIDIA Project Card - Special Styling */
+.project-card.nvidia-card {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    border: 1px solid #3d3d3d;
+    color: #ffffff;
+}
+
+.project-card.nvidia-card:hover {
+    box-shadow: 0 8px 24px rgba(118, 185, 0, 0.3);
+    border-color: #76b900;
+}
+
+.project-card.nvidia-card h3 {
+    color: #76b900;
+}
+
+.project-card.nvidia-card p {
+    color: #b0b0b0;
+}
+
+.project-card.nvidia-card .project-tech {
+    color: #909090;
+}
+
+.project-card.nvidia-card .project-link {
+    color: #76b900;
+}
+
+.project-card.nvidia-card .project-link:hover {
+    color: #8ed000;
+}
+
+/* TUM Project Card - Special Styling */
+.project-card.tum-card {
+    background: linear-gradient(135deg, #003359 0%, #0065BD 100%);
+    border: 1px solid #005293;
+    color: #ffffff;
+}
+
+.project-card.tum-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 101, 189, 0.4);
+    border-color: #64A0C8;
+}
+
+.project-card.tum-card h3 {
+    color: #ffffff;
+}
+
+.project-card.tum-card p {
+    color: #d0e4f5;
+}
+
+.project-card.tum-card .project-tech {
+    color: #a0c8e8;
+}
+
+.project-card.tum-card .project-link {
+    color: #64A0C8;
+}
+
+.project-card.tum-card .project-link:hover {
+    color: #ffffff;
+}
+
+.project-card.tum-card a {
+    color: #64A0C8;
+}
+
+.project-card.tum-card a:hover {
+    color: #ffffff;
 }
 
 /* Blog page styles */
@@ -311,21 +394,21 @@ main {
 
 .blog-post-preview {
     background: #ffffff;
-    border: 1px solid #ecf0f1;
-    border-radius: 8px;
+    border: 1px solid #e8e8f0;
+    border-radius: 12px;
     padding: 2rem;
     margin-bottom: 2rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(26, 26, 46, 0.05);
     transition: all 0.3s ease;
 }
 
 .blog-post-preview:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
     transform: translateY(-2px);
 }
 
 .blog-post-preview h2 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
 }
@@ -337,30 +420,30 @@ main {
 }
 
 .blog-post-preview h2 a:hover {
-    color: #3498db;
+    color: #6366f1;
 }
 
 .blog-post-meta {
-    color: #7f8c8d;
+    color: #5a5a7a;
     font-size: 0.9rem;
     margin-bottom: 1rem;
 }
 
 .blog-post-excerpt {
-    color: #2c3e50;
+    color: #1a1a2e;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 .read-more {
-    color: #3498db;
+    color: #6366f1;
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
 .read-more:hover {
-    color: #2980b9;
+    color: #4f46e5;
 }
 
 /* Individual blog post styles */
@@ -369,38 +452,38 @@ main {
 }
 
 .breadcrumb a {
-    color: #3498db;
+    color: #6366f1;
     text-decoration: none;
     font-weight: 500;
 }
 
 .breadcrumb a:hover {
-    color: #2980b9;
+    color: #4f46e5;
 }
 
 .blog-post {
     max-width: 800px;
     margin: 0 auto;
     background: #ffffff;
-    border: 1px solid #ecf0f1;
-    border-radius: 8px;
+    border: 1px solid #e8e8f0;
+    border-radius: 12px;
     padding: 3rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 2px 8px rgba(26, 26, 46, 0.05);
 }
 
 .blog-post h1 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 2.2rem;
     margin-bottom: 0.5rem;
     line-height: 1.3;
 }
 
 .blog-post-meta {
-    color: #7f8c8d;
+    color: #5a5a7a;
     font-size: 0.9rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid #ecf0f1;
+    border-bottom: 1px solid #e8e8f0;
 }
 
 .blog-post-content {
@@ -409,10 +492,22 @@ main {
 
 .blog-post-content h2 {
     font-size: 1.6rem;
+    color: #1a1a2e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .blog-post-content h3 {
     font-size: 1.3rem;
+    color: #1a1a2e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.blog-post-content h4 {
+    color: #1a1a2e;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
 
 .blog-post-content p {
@@ -430,18 +525,19 @@ main {
 }
 
 .blog-post-content code {
-    background: #ecf0f1;
+    background: #f0f0f8;
     padding: 2px 6px;
     border-radius: 4px;
     font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
     font-size: 0.9rem;
+    color: #6366f1;
 }
 
 .blog-post-content pre {
-    background: #2c3e50;
-    color: #ecf0f1;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
+    color: #e0e0e8;
     padding: 1.5rem;
-    border-radius: 6px;
+    border-radius: 8px;
     overflow-x: auto;
     margin-bottom: 1.5rem;
 }
@@ -456,7 +552,7 @@ main {
 .post-navigation {
     margin-top: 3rem;
     padding-top: 2rem;
-    border-top: 1px solid #ecf0f1;
+    border-top: 1px solid #e8e8f0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -464,17 +560,17 @@ main {
 }
 
 .post-nav-link {
-    color: #3498db;
+    color: #6366f1;
     text-decoration: none;
     font-weight: 500;
     padding: 0.5rem 1rem;
-    border: 1px solid #3498db;
-    border-radius: 4px;
+    border: 1px solid #6366f1;
+    border-radius: 6px;
     transition: all 0.3s ease;
 }
 
 .post-nav-link:hover {
-    background: #3498db;
+    background: #6366f1;
     color: #ffffff;
 }
 
@@ -494,24 +590,24 @@ main {
 }
 
 .contact-item h3 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 1.3rem;
     margin-bottom: 0.5rem;
 }
 
 .contact-item a {
-    color: #3498db;
+    color: #6366f1;
     text-decoration: none;
     font-size: 1.1rem;
     transition: color 0.3s ease;
 }
 
 .contact-item a:hover {
-    color: #2980b9;
+    color: #4f46e5;
 }
 
 .contact-links h3 {
-    color: #2c3e50;
+    color: #1a1a2e;
     font-size: 1.3rem;
     margin-bottom: 1rem;
 }
@@ -527,7 +623,7 @@ main {
 .social-link {
     display: inline-block;
     padding: 10px 16px;
-    background: #3498db;
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
     color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
@@ -537,39 +633,40 @@ main {
 }
 
 .social-link:hover {
-    background: #2980b9;
+    background: linear-gradient(135deg, #4f46e5 0%, #9333ea 100%);
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
 }
 
 .contact-note {
-    background: #ecf0f1;
+    background: #f5f5fa;
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 12px;
     text-align: left;
 }
 
 .contact-note h3 {
-    color: #2c3e50;
+    color: #1a1a2e;
     margin-bottom: 1rem;
 }
 
 .contact-note p {
-    color: #7f8c8d;
+    color: #5a5a7a;
     line-height: 1.6;
 }
 
 /* Loading state */
 .loading {
     text-align: center;
-    color: #7f8c8d;
+    color: #5a5a7a;
     font-style: italic;
     padding: 2rem;
 }
 
 /* Footer */
 footer {
-    background: #2c3e50;
-    color: #ecf0f1;
+    background: linear-gradient(135deg, #1a1a2e 0%, #2d2d4a 100%);
+    color: #e0e0e8;
     text-align: center;
     padding: 2rem 0;
     margin-top: 4rem;
@@ -693,19 +790,9 @@ footer p {
         border: none;
         padding: 0;
     }
-}2,
-.blog-post-content h3,
-.blog-post-content h4 {
-    color: #2c3e50;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
 }
-
-.blog-post-content h
-
 
 img[alt="Kevin Mato"] {
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(26, 26, 46, 0.2);
     border-radius: 50%;
 }
-

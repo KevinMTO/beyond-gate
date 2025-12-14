@@ -1,6 +1,16 @@
 /*
- * Personal Engineer Website JavaScript
- * Handles loading JSON data and populating pages dynamically
+ * Beyond the Gate - Personal Website Template
+ * 
+ * Copyright (c) 2025 Kevin Mato. All rights reserved.
+ * Licensed under MIT with Attribution Requirement.
+ * https://github.com/KevinMTO/beyond-gate
+ * 
+ * If you use this template, you must include attribution to Kevin Mato.
+ * See LICENSE file for full terms.
+ * 
+ * ---
+ * 
+ * JavaScript for loading JSON data and populating pages dynamically
  * 
  * Functions:
  * - loadSiteData(): Loads general site info (name, bio, contact)
