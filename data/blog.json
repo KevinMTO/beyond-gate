@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "template": "Beyond the Gate - Personal Website Template",
+    "copyright": "Copyright (c) 2025 Kevin Mato. All rights reserved.",
+    "license": "MIT with Attribution Requirement",
+    "url": "https://github.com/KevinMTO/beyond-gate"
+  },
   "posts": [
     {
       "id": "mqt-qudits-introduction",

@@ -1,3 +1,9 @@
+# Beyond the Gate - Personal Website Template
+# 
+# Copyright (c) 2025 Kevin Mato. All rights reserved.
+# Licensed under MIT with Attribution Requirement.
+# https://github.com/KevinMTO/beyond-gate
+#
 # robots.txt for Beyond the Gate - Kevin Mato
 # https://kevinmto.github.io/beyond-gate/
 

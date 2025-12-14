@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Beyond the Gate - Personal Website Template
+  
+  Copyright (c) 2025 Kevin Mato. All rights reserved.
+  Licensed under MIT with Attribution Requirement.
+  https://github.com/KevinMTO/beyond-gate
+-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://kevinmto.github.io/beyond-gate/</loc>

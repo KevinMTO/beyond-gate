@@ -1,3 +1,13 @@
+<!--
+  Beyond the Gate - Personal Website Template
+  
+  Copyright (c) 2025 Kevin Mato. All rights reserved.
+  Licensed under MIT with Attribution Requirement.
+  https://github.com/KevinMTO/beyond-gate
+  
+  If you use this template, you must include attribution to Kevin Mato.
+  See LICENSE file for full terms.
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -218,6 +228,7 @@
                     <li><a href="publications.html" class="nav-link active">Publications</a></li>
                     <li><a href="blog.html" class="nav-link">Blog</a></li>
                     <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><button id="dark-mode-toggle" class="dark-mode-toggle" onclick="toggleDarkMode()" title="Toggle Dark Mode">🌙</button></li>
                 </ul>
             </div>
         </nav>
@@ -407,6 +418,7 @@
     <script src="js/main.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            initDarkMode();
             loadSiteData();
         });
     </script>

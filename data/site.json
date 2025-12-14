@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "template": "Beyond the Gate - Personal Website Template",
+    "copyright": "Copyright (c) 2025 Kevin Mato. All rights reserved.",
+    "license": "MIT with Attribution Requirement",
+    "url": "https://github.com/KevinMTO/beyond-gate"
+  },
   "name": "Kevin Mato",
   "title": "Quantum Computing Libraries Engineer @ NVIDIA | PhD in Quantum Computing",
   "shortBio": "Quantum Computing Libraries Engineer at NVIDIA with a PhD in Quantum Computing from the Technical University of Munich. Passionate about quantum full-stack toolchains, HPC acceleration, and open-source development.",

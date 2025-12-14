@@ -796,3 +796,255 @@ img[alt="Kevin Mato"] {
     box-shadow: 0 4px 12px rgba(26, 26, 46, 0.2);
     border-radius: 50%;
 }
+
+/* Dark Mode Toggle Button */
+.dark-mode-toggle {
+    background: transparent;
+    border: none;
+    color: #e0e0e8;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: 0.25rem 0.4rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.dark-mode-toggle:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ============================================
+   DARK MODE STYLES
+   ============================================ */
+
+body.dark-mode {
+    background-color: #0f0f1a;
+    color: #e0e0e8;
+}
+
+/* Dark Mode - Navigation */
+body.dark-mode .navbar {
+    background: linear-gradient(135deg, #0a0a12 0%, #1a1a2e 100%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Dark Mode - Hero */
+body.dark-mode .hero h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .hero h2 {
+    color: #a855f7;
+}
+
+body.dark-mode .hero p {
+    color: #a0a0b8;
+}
+
+/* Dark Mode - Cards */
+body.dark-mode .link-card,
+body.dark-mode .project-card,
+body.dark-mode .blog-post-preview,
+body.dark-mode .blog-post {
+    background: #1a1a2e;
+    border-color: #2d2d4a;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+body.dark-mode .link-card:hover,
+body.dark-mode .project-card:hover,
+body.dark-mode .blog-post-preview:hover {
+    border-color: #6366f1;
+    box-shadow: 0 8px 24px rgba(99, 102, 241, 0.2);
+}
+
+body.dark-mode .link-card h3,
+body.dark-mode .project-card h3,
+body.dark-mode .blog-post-preview h2,
+body.dark-mode .blog-post h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .link-card p,
+body.dark-mode .project-card p,
+body.dark-mode .blog-post-excerpt {
+    color: #a0a0b8;
+}
+
+/* Dark Mode - Page Headers */
+body.dark-mode .page-header h1 {
+    color: #ffffff;
+}
+
+body.dark-mode .page-header p {
+    color: #a0a0b8;
+}
+
+/* Dark Mode - About Section */
+body.dark-mode .about-section h2 {
+    color: #ffffff;
+    border-bottom-color: #2d2d4a;
+}
+
+body.dark-mode .about-section p,
+body.dark-mode .about-section li {
+    color: #c0c0d0;
+}
+
+/* Dark Mode - Blog */
+body.dark-mode .blog-post-meta {
+    color: #8080a0;
+    border-bottom-color: #2d2d4a;
+}
+
+body.dark-mode .blog-post-content {
+    color: #d0d0e0;
+}
+
+body.dark-mode .blog-post-content h2,
+body.dark-mode .blog-post-content h3,
+body.dark-mode .blog-post-content h4 {
+    color: #ffffff;
+}
+
+body.dark-mode .blog-post-content code {
+    background: #2d2d4a;
+    color: #a855f7;
+}
+
+/* Dark Mode - Contact */
+body.dark-mode .contact-item h3,
+body.dark-mode .contact-links h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .contact-note {
+    background: #1a1a2e;
+}
+
+body.dark-mode .contact-note h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .contact-note p {
+    color: #a0a0b8;
+}
+
+/* Dark Mode - Tables */
+body.dark-mode table {
+    background: #1a1a2e;
+}
+
+body.dark-mode th {
+    background: #2d2d4a;
+    color: #ffffff;
+}
+
+body.dark-mode td {
+    border-color: #2d2d4a;
+    color: #c0c0d0;
+}
+
+body.dark-mode td a {
+    color: #a855f7;
+}
+
+/* Dark Mode - Buttons */
+body.dark-mode .btn-secondary {
+    color: #a855f7;
+    border-color: #a855f7;
+}
+
+body.dark-mode .btn-secondary:hover {
+    background: #a855f7;
+    color: #ffffff;
+}
+
+/* Dark Mode - Post Navigation */
+body.dark-mode .post-navigation {
+    border-top-color: #2d2d4a;
+}
+
+body.dark-mode .post-nav-link {
+    color: #a855f7;
+    border-color: #a855f7;
+}
+
+body.dark-mode .post-nav-link:hover {
+    background: #a855f7;
+    color: #ffffff;
+}
+
+/* Dark Mode - Footer */
+body.dark-mode footer {
+    background: linear-gradient(135deg, #0a0a12 0%, #1a1a2e 100%);
+}
+
+/* Dark Mode - Quick Links Section */
+body.dark-mode .quick-links h2 {
+    color: #ffffff;
+}
+
+/* Dark Mode - Image */
+body.dark-mode img[alt="Kevin Mato"] {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Dark Mode - Contact Page Cards */
+body.dark-mode .contact-card {
+    background: #1a1a2e !important;
+}
+
+body.dark-mode .contact-card h2 {
+    color: #ffffff !important;
+}
+
+body.dark-mode .contact-card p {
+    color: #a0a0b8 !important;
+}
+
+body.dark-mode .links-table td {
+    border-bottom-color: #2d2d4a !important;
+}
+
+body.dark-mode .links-table td:first-child {
+    color: #ffffff !important;
+}
+
+body.dark-mode .links-table a {
+    color: #a855f7 !important;
+}
+
+/* Dark Mode - Misc backgrounds */
+body.dark-mode [style*="background: #f8f9fa"],
+body.dark-mode [style*="background:#f8f9fa"] {
+    background: #1a1a2e !important;
+}
+
+body.dark-mode [style*="color: #666"] {
+    color: #a0a0b8 !important;
+}
+
+body.dark-mode [style*="color: #2c3e50"] {
+    color: #ffffff !important;
+}
+
+/* Dark Mode - Publications */
+body.dark-mode .publication-card {
+    background: #1a1a2e;
+    border-color: #2d2d4a;
+}
+
+body.dark-mode .publication-card:hover {
+    border-color: #6366f1;
+}
+
+/* Transition for smooth mode switch */
+body, 
+body *:not(.dark-mode-toggle) {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}

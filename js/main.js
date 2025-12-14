@@ -19,7 +19,53 @@
  * - loadBlogData(): Loads blog index
  * - loadBlogPost(): Loads individual blog post
  * - loadContactData(): Loads contact information
+ * - initDarkMode(): Initializes dark mode toggle
+ * - toggleDarkMode(): Toggles dark mode on/off
  */
+
+// ============================================
+// DARK MODE FUNCTIONALITY
+// ============================================
+
+// Initialize dark mode on page load
+function initDarkMode() {
+    const savedMode = localStorage.getItem('darkMode');
+    
+    // Default to dark mode unless explicitly set to false
+    if (savedMode !== 'false') {
+        document.body.classList.add('dark-mode');
+        updateDarkModeIcon(true);
+    }
+}
+
+// Toggle dark mode
+function toggleDarkMode() {
+    const isDark = document.body.classList.toggle('dark-mode');
+    localStorage.setItem('darkMode', isDark);
+    updateDarkModeIcon(isDark);
+}
+
+// Update the toggle button icon
+function updateDarkModeIcon(isDark) {
+    const toggleBtn = document.getElementById('dark-mode-toggle');
+    if (toggleBtn) {
+        toggleBtn.innerHTML = isDark ? '☀️' : '🌙';
+        toggleBtn.title = isDark ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+    }
+}
+
+// Initialize dark mode immediately (before page fully loads)
+(function() {
+    const savedMode = localStorage.getItem('darkMode');
+    // Default to dark mode unless explicitly set to false
+    if (savedMode !== 'false') {
+        document.documentElement.classList.add('dark-mode');
+    }
+})();
+
+// ============================================
+// DATA LOADING FUNCTIONS
+// ============================================
 
 // Utility function to safely fetch JSON data
 async function fetchJSON(url) {
